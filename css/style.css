@@ -138,13 +138,10 @@ img {
     text-transform: uppercase;
     font-weight: 700;
     margin-bottom: 2rem;
-<<<<<<< HEAD
     border: none;
 }
 .boton:hover {
     cursor: pointer;
-=======
->>>>>>> edf2e411913e032a930a671807b70c1248798203
 }
 @media (min-width: 768px) {
     .boton {
@@ -191,31 +188,25 @@ img {
     align-items: center;
     padding-bottom: 3rem;
 }
+.guycho {
+    color: var(--blanco);
+}
 
 /*Sobre nosotros*/
 @media (min-width: 768px) {
     /*.sobre-nosotros {
         display: flex;
-<<<<<<< HEAD
         justify-content: space-between;
     }
     .sobre-nosotros__imagen,
     .sobre-nosotros__texto {
         flex-basis: calc(50% - 1rem);
-=======
-        gap: 2rem;
-    }
-    .sobre-nosotros__imagen,
-    .sobre-nosotros__texto {
-        flex-basis: 50%;
->>>>>>> edf2e411913e032a930a671807b70c1248798203
     }*/
     .sobre-nosotros {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         column-gap: 2rem;
     }
-<<<<<<< HEAD
 }
 
 /*cursos*/
@@ -265,6 +256,4 @@ img {
 }
 .campo__field--textarea {
     height: 200px;
-=======
->>>>>>> edf2e411913e032a930a671807b70c1248798203
 }
