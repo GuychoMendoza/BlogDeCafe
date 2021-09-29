@@ -52,7 +52,11 @@
 
             <article class="entrada">
                 <div class="entrada__img">
-                    <img loading="lazy" src="./blogdecafe_inicio/img/blog1.jpg" alt="imagen blog">
+                    <picture>
+                        <source loading="lazy" srcset="./blogdecafe_inicio/img/blog1.webp" type="image/webp">
+                        <img loading="lazy" src="./blogdecafe_inicio/img/blog1.jpg" alt="imagen blog">
+                    </picture>
+                    
                 </div>
 
                 <div class="entrada__contenido">
@@ -64,7 +68,11 @@
 
             <article class="entrada">
                 <div class="entrada__img">
-                    <img loading="lazy" src="./blogdecafe_inicio/img/blog2.jpg" alt="imagen blog">
+                    <picture>
+                        <source srcset="./blogdecafe_inicio/img/blog2.webp" type="image/webp">
+                        <img loading="lazy" src="./blogdecafe_inicio/img/blog2.jpg" alt="imagen blog">
+                    </picture>
+                    
                 </div>
 
                 <div class="entrada__contenido">
@@ -76,7 +84,11 @@
 
             <article class="entrada">
                 <div class="entrada__img">
-                    <img loading="lazy" src="./blogdecafe_inicio/img/blog3.jpg" alt="imagen blog">
+                    <picture>
+                        <source loading="lazy" srcset="./blogdecafe_inicio/img/blog3.webp" type="image/webp">
+                        <img loading="lazy" src="./blogdecafe_inicio/img/blog3.jpg" alt="imagen blog">
+                    </picture>
+                    
                 </div>
 
                 <div class="entrada__contenido">
@@ -127,5 +139,6 @@
                 </nav>
                 <p class="guycho">By Guycho Mendoza® 2021 </p>
     </footer>
+    <script src="./modernizr.js"></script>
 </body>
 </html>
